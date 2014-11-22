@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This function takes the object from the makeCacheMatrix function and first checks if there is
-## an inverse matrix stroed in the cache; if so, it returns it. Otherwise, it calls the input
+## an inverse matrix stored in the cache; if so, it returns it. Otherwise, it calls the input
 ## matrix using the get function, calculates the inverse using solve, stores it to the cache
 ## using the setmatrix function, and then returns the inverse.
 
